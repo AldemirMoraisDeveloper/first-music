@@ -343,14 +343,23 @@ html {
 }
 
 @media (max-width: 712px) {
+    .logo {
+        display: none;
+    }
+    
     .genres-list div {
         width: 22%;
         height: 24vh;
         padding: 40px;
     }
+
 }
 
 @media (max-width: 540px) {
+    .logo {
+        display: none;
+    }
+    
     .main {
         background-position: right;
         background-size: cover;
